@@ -1,12 +1,12 @@
 # Permalinks
-permalink:           pretty
+permalink: /:categories/:title/
 
 # Setup
-title:               Majid's blog about Swift development
-url:                 https://swiftwithmajid.com
+title:               Julian's Blog
+url:                 https://blog.julianbeck.com
 paginate:            10
 baseurl:             ""
-analytics_id:        UA-18491817-18
+analytics_id:        UA-123121612-2
 
 # Assets
 #
@@ -17,9 +17,9 @@ sass:
 
 # About/contact
 author:
-  name:              Majid Jabrayilov
-  url:               https://twitter.com/mecid
-  email:             cmecid@gmail.com
+  name:              Julian Beck
+  url:               https://julianbeck.com
+  email:             kickbeck@gmail.com
 
 # Custom vars
 version:             2.0.0
@@ -34,3 +34,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-gist
+  - jekyll-archives:
+      enabled:
+        - categories
+
