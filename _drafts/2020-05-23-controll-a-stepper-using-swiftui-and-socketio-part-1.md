@@ -13,12 +13,16 @@ You can find the other posts here:
 
 ___ 
 
-# Part 1: Building the SwiftUI App:
+# Part 1: Building the SwiftUI App
 
-This Post will explain how to build the front-end using SwiftUI. To send 
-We will be using the [Socket.IO-Client-Swift
+This Post will explain how to build the front-end using SwiftUI. We will comunicate to the Server using Socket.IO
+
+Socket.IO enables real-time bidirectional event-based communication. This means we can send and receive data from the server that controlls the Stepper Motor in real-time. To use Socket.IO we need to install the  [Socket.IO-Client-Swift
 ](https://github.com/socketio/socket.io-client-swift)
-Libary in order to connect to our server via 
+You can install the Libary using Swift Package Manager.
+
+## Building the Main Interface
+
 
 ---
 * Next: [Part 2: Controlling a Stepper with Python]()

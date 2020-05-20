@@ -1,5 +1,5 @@
 ---
-title: Control a stepper motor with SwiftUI and Python via Socket.IO  - Part 1
+title: Control a stepper motor with SwiftUI and Python via Socket.IO  - Part 2
 layout: post
 categories: SwiftUI
 ---
