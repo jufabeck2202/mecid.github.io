@@ -1,5 +1,5 @@
 ---
-title: Add to Siri Button using SwiftUI and UIViewControllerRepresentable
+title: Add to Siri Button in SwiftUI
 layout: post
 categories: SwiftUI
 ---
